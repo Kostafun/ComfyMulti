@@ -1,0 +1,175 @@
+## ComfyUI-Manager: installing dependencies done.
+[2025-07-07 08:50:45.926] ** ComfyUI startup time: 2025-07-07 08:50:45.926
+[2025-07-07 08:50:45.926] ** Platform: Linux
+[2025-07-07 08:50:45.926] ** Python version: 3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]
+[2025-07-07 08:50:45.926] ** Python executable: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/.venv/bin/python3
+[2025-07-07 08:50:45.926] ** ComfyUI Path: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti
+[2025-07-07 08:50:45.926] ** ComfyUI Base Folder Path: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti
+[2025-07-07 08:50:45.927] ** User directory: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/user
+[2025-07-07 08:50:45.927] ** ComfyUI-Manager config path: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/user/default/ComfyUI-Manager/config.ini
+[2025-07-07 08:50:45.927] ** Log path: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/user/comfyui.log
+[2025-07-07 08:50:45.927] [ComfyUI-Manager] WARN: Unsafe - SSL verification bypass option is Enabled. (see /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/user/default/ComfyUI-Manager/config.ini)
+
+Prestartup times for custom nodes:
+[2025-07-07 08:50:46.016]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/rgthree-comfy
+[2025-07-07 08:50:46.016]    0.5 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-Manager
+[2025-07-07 08:50:46.016] 
+[2025-07-07 08:50:47.989] Checkpoint files will always be loaded safely.
+[2025-07-07 08:50:48.304] Total VRAM 24134 MB, total RAM 78535 MB
+[2025-07-07 08:50:48.304] pytorch version: 2.7.1+cu126
+[2025-07-07 08:50:50.448] xformers version: 0.0.31
+[2025-07-07 08:50:50.449] Set vram state to: NORMAL_VRAM
+[2025-07-07 08:50:50.449] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
+[2025-07-07 08:50:50.673] Using xformers attention
+[2025-07-07 08:50:52.344] Python version: 3.11.11 (main, Mar 17 2025, 21:02:09) [Clang 20.1.0 ]
+[2025-07-07 08:50:52.344] ComfyUI version: 0.3.43
+[2025-07-07 08:50:52.349] ComfyUI frontend version: 1.23.4
+[2025-07-07 08:50:52.349] [Prompt Server] web root: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/.venv/lib/python3.11/site-packages/comfyui_frontend_package/static
+[2025-07-07 08:50:53.477] Total VRAM 24134 MB, total RAM 78535 MB
+[2025-07-07 08:50:53.477] pytorch version: 2.7.1+cu126
+[2025-07-07 08:50:53.477] xformers version: 0.0.31
+[2025-07-07 08:50:53.477] Set vram state to: NORMAL_VRAM
+[2025-07-07 08:50:53.478] Device: cuda:0 NVIDIA GeForce RTX 3090 : cudaMallocAsync
+[2025-07-07 08:50:53.683] 
+[2025-07-07 08:50:53.683] [92m[rgthree-comfy] Loaded 47 extraordinary nodes. 🎉[0m
+[2025-07-07 08:50:53.683] 
+[2025-07-07 08:50:54.044] ComfyUI found: /home/kostafun/mnt/home/kostafun/Projects/ComfyUI
+[2025-07-07 08:50:54.044] '/home/kostafun/mnt/home/kostafun/Projects/ComfyUI' added to sys.path
+[2025-07-07 08:50:54.050] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-LTXVideo
+[2025-07-07 08:50:54.050] MultiGPU: Module ComfyUI-LTXVideo not found - skipping
+[2025-07-07 08:50:54.050] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-ltxvideo
+[2025-07-07 08:50:54.050] MultiGPU: Module comfyui-ltxvideo not found - skipping
+[2025-07-07 08:50:54.050] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-Florence2
+[2025-07-07 08:50:54.050] MultiGPU: Module ComfyUI-Florence2 not found - skipping
+[2025-07-07 08:50:54.050] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-florence2
+[2025-07-07 08:50:54.050] MultiGPU: Module comfyui-florence2 not found - skipping
+[2025-07-07 08:50:54.051] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI_bitsandbytes_NF4
+[2025-07-07 08:50:54.051] MultiGPU: Module ComfyUI_bitsandbytes_NF4 not found - skipping
+[2025-07-07 08:50:54.051] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui_bitsandbytes_nf4
+[2025-07-07 08:50:54.051] MultiGPU: Module comfyui_bitsandbytes_nf4 not found - skipping
+[2025-07-07 08:50:54.051] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/x-flux-comfyui
+[2025-07-07 08:50:54.051] MultiGPU: Module x-flux-comfyui not found - skipping
+[2025-07-07 08:50:54.051] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/x-flux-comfyui
+[2025-07-07 08:50:54.051] MultiGPU: Module x-flux-comfyui not found - skipping
+[2025-07-07 08:50:54.051] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-MMAudio
+[2025-07-07 08:50:54.051] MultiGPU: Module ComfyUI-MMAudio not found - skipping
+[2025-07-07 08:50:54.051] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mmaudio
+[2025-07-07 08:50:54.051] MultiGPU: Module comfyui-mmaudio not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-GGUF
+[2025-07-07 08:50:54.052] MultiGPU: Module ComfyUI-GGUF not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-gguf
+[2025-07-07 08:50:54.052] MultiGPU: Module comfyui-gguf not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/PuLID_ComfyUI
+[2025-07-07 08:50:54.052] MultiGPU: Module PuLID_ComfyUI not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/pulid_comfyui
+[2025-07-07 08:50:54.052] MultiGPU: Module pulid_comfyui not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-HunyuanVideoWrapper
+[2025-07-07 08:50:54.052] MultiGPU: Module ComfyUI-HunyuanVideoWrapper not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-hunyuanvideowrapper
+[2025-07-07 08:50:54.052] MultiGPU: Module comfyui-hunyuanvideowrapper not found - skipping
+[2025-07-07 08:50:54.052] MultiGPU: Checking for module at /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-WanVideoWrapper
+[2025-07-07 08:50:54.053] MultiGPU: Found ComfyUI-WanVideoWrapper, creating compatible MultiGPU nodes
+[2025-07-07 08:50:54.053] MultiGPU: Registration complete. Final mappings: DeviceSelectorMultiGPU, HunyuanVideoEmbeddingsAdapter, MergeFluxLoRAsQuantizeAndLoaddMultiGPU, UNETLoaderMultiGPU, VAELoaderMultiGPU, CLIPLoaderMultiGPU, DualCLIPLoaderMultiGPU, TripleCLIPLoaderMultiGPU, QuadrupleCLIPLoaderMultiGPU, CLIPVisionLoaderMultiGPU, CheckpointLoaderSimpleMultiGPU, ControlNetLoaderMultiGPU, WanVideoModelLoaderMultiGPU, WanVideoVAELoaderMultiGPU, LoadWanVideoT5TextEncoderMultiGPU
+[2025-07-07 08:50:54.059] ### Loading: ComfyUI-Manager (V3.33.5)
+[2025-07-07 08:50:54.060] [ComfyUI-Manager] network_mode: public
+[2025-07-07 08:50:54.144] ### ComfyUI Version: v0.3.43-22-g27870ec3 | Released on '2025-07-04'
+[2025-07-07 08:50:54.607] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-07-07 08:50:54.611] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-07-07 08:50:54.719] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-07-07 08:50:54.774] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-07-07 08:50:54.814] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-07-07 08:50:56.068] --------------
+[2025-07-07 08:50:56.068] [91m ### Mixlab Nodes: [93mLoaded
+[2025-07-07 08:50:56.073] json_repair## OK
+[2025-07-07 08:50:56.077] ChatGPT.available True
+[2025-07-07 08:50:56.077] edit_mask.available True
+[2025-07-07 08:50:57.053] ## clip_interrogator_model not found: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/models/clip_interrogator/Salesforce/blip-image-captioning-base, pls download from https://huggingface.co/Salesforce/blip-image-captioning-base
+[2025-07-07 08:50:57.054] ClipInterrogator.available True
+[2025-07-07 08:50:57.130] ## text_generator_model not found: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/models/prompt_generator/text2image-prompt-generator, pls download from https://huggingface.co/succinctly/text2image-prompt-generator/tree/main
+[2025-07-07 08:50:57.130] ## zh_en_model not found: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/models/prompt_generator/opus-mt-zh-en, pls download from https://huggingface.co/Helsinki-NLP/opus-mt-zh-en/tree/main
+[2025-07-07 08:50:57.130] PromptGenerate.available True
+[2025-07-07 08:50:57.130] ChinesePrompt.available True
+[2025-07-07 08:50:57.130] RembgNode_.available True
+[2025-07-07 08:50:57.253] TripoSR.available
+[2025-07-07 08:50:57.254] MiniCPMNode.available
+[2025-07-07 08:50:58.222] Scenedetect.available
+[2025-07-07 08:50:58.342] FishSpeech.available
+[2025-07-07 08:50:58.350] SenseVoice.available
+[2025-07-07 08:50:58.378] Whisper.available False
+[2025-07-07 08:50:58.378] fal-client## OK
+[2025-07-07 08:50:58.389] FalVideo.available
+[2025-07-07 08:50:58.389] [93m -------------- [0m
+[2025-07-07 08:50:59.459] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/videox-fun/videox_fun/dist/wan_xfuser.py:32: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+[2025-07-07 08:50:59.460] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/videox-fun/videox_fun/models/wan_transformer3d.py:212: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+[2025-07-07 08:50:59.460] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/videox-fun/videox_fun/models/wan_transformer3d.py:223: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+[2025-07-07 08:51:00.145] FETCH ComfyRegistry Data: 5/91
+[2025-07-07 08:51:02.623] 
+Import times for custom nodes:
+[2025-07-07 08:51:02.623]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/websocket_image_save.py
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/wanblockswap
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-to-python-extension
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-Notifications
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui_memory_cleanup
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/audio-general-ComfyUI
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/audio-separation-nodes-comfyui
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-multigpu
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI_essentials
+[2025-07-07 08:51:02.624]    0.0 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-tripo
+[2025-07-07 08:51:02.624]    0.1 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-kjnodes
+[2025-07-07 08:51:02.625]    0.1 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-SaveAsScript
+[2025-07-07 08:51:02.625]    0.1 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-Manager
+[2025-07-07 08:51:02.625]    0.1 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-MediaMixer
+[2025-07-07 08:51:02.625]    0.1 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/rgthree-comfy
+[2025-07-07 08:51:02.625]    0.2 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-videohelpersuite
+[2025-07-07 08:51:02.625]    1.4 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-WanVideoWrapper
+[2025-07-07 08:51:02.625]    2.8 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/videox-fun
+[2025-07-07 08:51:02.625]    4.2 seconds: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes
+[2025-07-07 08:51:02.625] 
+[2025-07-07 08:51:02.961] Context impl SQLiteImpl.
+[2025-07-07 08:51:02.961] Will assume non-transactional DDL.
+[2025-07-07 08:51:02.962] No target revision found.
+[2025-07-07 08:51:02.982] Starting server
+
+[2025-07-07 08:51:02.983] To see the GUI go to: http://127.0.0.1:8188
+[2025-07-07 08:51:05.509] FETCH ComfyRegistry Data: 10/91
+[2025-07-07 08:51:10.262] FETCH ComfyRegistry Data: 15/91
+[2025-07-07 08:51:16.747] FETCH ComfyRegistry Data: 20/91
+[2025-07-07 08:51:21.261] FETCH ComfyRegistry Data: 25/91
+[2025-07-07 08:51:25.693] FETCH ComfyRegistry Data: 30/91
+[2025-07-07 08:51:25.745] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe-lightbox.esm.min.js
+[2025-07-07 08:51:25.868] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/pickr.min.js
+[2025-07-07 08:51:25.878] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/photoswipe.min.css
+[2025-07-07 08:51:26.046] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.css
+[2025-07-07 08:51:26.047] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/juxtapose.min.js
+[2025-07-07 08:51:26.047] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/model-viewer.min.js
+[2025-07-07 08:51:26.052] /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/comfyui-mixlab-nodes/webApp/lib/classic.min.css
+[2025-07-07 08:51:30.438] FETCH ComfyRegistry Data: 35/91
+[2025-07-07 08:51:34.175] Code successfully generated and written to <_io.StringIO object at 0x7a1364b05900>
+[2025-07-07 08:51:35.130] FETCH ComfyRegistry Data: 40/91
+[2025-07-07 08:51:39.688] FETCH ComfyRegistry Data: 45/91
+[2025-07-07 08:51:44.827] FETCH ComfyRegistry Data: 50/91
+[2025-07-07 08:51:49.490] FETCH ComfyRegistry Data: 55/91
+[2025-07-07 08:51:54.844] FETCH ComfyRegistry Data: 60/91
+[2025-07-07 08:51:59.433] FETCH ComfyRegistry Data: 65/91
+[2025-07-07 08:52:05.000] FETCH ComfyRegistry Data: 70/91
+[2025-07-07 08:52:09.468] FETCH ComfyRegistry Data: 75/91
+[2025-07-07 08:52:14.756] FETCH ComfyRegistry Data: 80/91
+[2025-07-07 08:52:19.939] FETCH ComfyRegistry Data: 85/91
+[2025-07-07 08:52:24.782] FETCH ComfyRegistry Data: 90/91
+[2025-07-07 08:52:25.151] 
+Stopped server
+[2025-07-07 08:52:25.283] Cannot connect to comfyregistry.
+[2025-07-07 08:52:25.299] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json[ComfyUI-Manager] Due to a network error, switching to 
+local mode.
+=> custom-node-list.json
+=> cannot schedule new futures after shutdown
+[2025-07-07 08:52:25.303] FETCH DATA from: /home/kostafun/mnt/home/kostafun/Projects/ComfyMulti/custom_nodes/ComfyUI-Manager/custom-node-list.json [DONE]
+[2025-07-07 08:52:25.337] Exception ignored in: <module 'threading' from '/home/kostafun/.local/share/uv/python/cpython-3.11.11-linux-x86_64-gnu/lib/python3.11/threading.py'>[ComfyUI-Manager] All startup tasks have been completed.
+[2025-07-07 08:52:25.345] 
+[2025-07-07 08:52:25.345] Traceback (most recent call last):
+[2025-07-07 08:52:25.345]   File "/home/kostafun/.local/share/uv/python/cpython-3.11.11-linux-x86_64-gnu/lib/python3.11/threading.py", line 1590, in _shutdown
+[2025-07-07 08:52:25.346]     lock.acquire()
+[2025-07-07 08:52:25.347] KeyboardInterrupt: 

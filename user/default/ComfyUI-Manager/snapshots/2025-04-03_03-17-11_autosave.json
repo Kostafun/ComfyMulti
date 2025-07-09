@@ -1,0 +1,265 @@
+{
+    "comfyui": "3d2e3a6f29670809aa97b41505fa4e93ce11b98d",
+    "git_custom_nodes": {
+        "https://github.com/M1kep/ComfyLiterals": {
+            "hash": "bdddb08ca82d90d75d97b1d437a652e0284a32ac",
+            "disabled": false
+        },
+        "https://github.com/alt-key-project/comfyui-dream-project": {
+            "hash": "f48bed5b8ae866b3dad33fb811d712d45205f117",
+            "disabled": false
+        },
+        "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced": {
+            "hash": "04e1b52320f1f14383afe18959349703623c5b88",
+            "disabled": false
+        },
+        "https://github.com/chrisgoringe/cg-image-filter": {
+            "hash": "4e0d21c016808e2367524f19e9c1484bce673780",
+            "disabled": false
+        },
+        "https://github.com/kijai/ComfyUI-KJNodes": {
+            "hash": "b3269479f2f188fd60bc1ce0c6d1740383b98857",
+            "disabled": false
+        },
+        "https://github.com/rgthree/rgthree-comfy": {
+            "hash": "cb3612624037ad50d76a8caf44ed58694648e245",
+            "disabled": false
+        },
+        "https://github.com/giriss/comfy-image-saver": {
+            "hash": "65e6903eff274a50f8b5cd768f0f96baf37baea1",
+            "disabled": false
+        },
+        "https://github.com/MushroomFleet/DJZ-Nodes": {
+            "hash": "b64e90ea4753675951f25598ecad2f61002bad40",
+            "disabled": false
+        },
+        "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite": {
+            "hash": "0a3b1eb433a95d33e71bca634b8307a238d7e425",
+            "disabled": false
+        },
+        "https://github.com/facok/ComfyUI-HunyuanVideoMultiLora": {
+            "hash": "d41fbcb319a84fa6ba8eb10653ff501a9653b639",
+            "disabled": false
+        },
+        "https://github.com/ltdrdata/ComfyUI-Impact-Pack": {
+            "hash": "0b1ac0f1c5a395e17065821e4fd47aba3bf23900",
+            "disabled": false
+        },
+        "https://github.com/ltdrdata/ComfyUI-Manager.git": {
+            "hash": "87a652d038f3b509e48ca086e30ac3a3fd017f4a",
+            "disabled": false
+        },
+        "https://github.com/city96/ComfyUI-GGUF": {
+            "hash": "bc5223b0e37e053dbec2ea5e5f52c2fd4b8f712a",
+            "disabled": false
+        },
+        "https://github.com/adieyal/comfyui-dynamicprompts": {
+            "hash": "3f2fff32358cf39e21b8b440ca87eac9a8e2bade",
+            "disabled": false
+        },
+        "https://github.com/Gourieff/ComfyUI-ReActor": {
+            "hash": "d901609a1d5d1942a6b069b2f8f3778fee3a7134",
+            "disabled": false
+        },
+        "https://github.com/pythongosssss/ComfyUI-Custom-Scripts": {
+            "hash": "9f7b3215e6af317603056a9a1666bf6e83e28835",
+            "disabled": false
+        },
+        "https://github.com/chrisgoringe/cg-use-everywhere": {
+            "hash": "ccf8d95cb0678b611e5c082ca5d76a703a301539",
+            "disabled": false
+        },
+        "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation": {
+            "hash": "18b7cce5b08290741929e39d4955b88382db4e1d",
+            "disabled": false
+        },
+        "https://github.com/cubiq/ComfyUI_essentials": {
+            "hash": "33ff89fd354d8ec3ab6affb605a79a931b445d99",
+            "disabled": false
+        },
+        "https://github.com/kijai/ComfyUI-GIMM-VFI": {
+            "hash": "72ecb480147abcc20c55a1987049d94ffa182da4",
+            "disabled": false
+        }
+    },
+    "cnr_custom_nodes": {
+        "comfyui-advanced-controlnet": "1.5.4",
+        "comfyui_controlnet_aux": "1.0.7",
+        "comfyui-florence2": "1.0.3",
+        "comfyui-mxtoolkit": "0.9.11",
+        "was-node-suite-comfyui": "1.0.2",
+        "comfyui-easy-use": "1.2.8"
+    },
+    "file_custom_nodes": [
+        {
+            "filename": "websocket_image_save.py",
+            "disabled": false
+        }
+    ],
+    "pips": {
+        "accelerate==1.5.2": "",
+        "aiohappyeyeballs==2.6.1": "",
+        "aiohttp==3.11.15": "",
+        "aiosignal==1.3.2": "",
+        "albucore==0.0.23": "",
+        "albumentations==2.0.5": "",
+        "annotated-types==0.7.0": "",
+        "antlr4-python3-runtime==4.9.3": "",
+        "attrs==25.3.0": "",
+        "av==14.2.0": "",
+        "certifi==2025.1.31": "",
+        "cffi==1.17.1": "",
+        "chardet==5.2.0": "",
+        "charset-normalizer==3.4.1": "",
+        "click==8.1.8": "",
+        "cmake==4.0.0": "",
+        "coloredlogs==15.0.1": "",
+        "comfyui_frontend_package==1.14.6": "",
+        "contourpy==1.3.1": "",
+        "cryptography==44.0.2": "",
+        "cstr": "git+https://github.com/WASasquatch/cstr@0520c29a18a7a869a6e5983861d6f7a4c86f8e9b",
+        "cupy-cuda12x==13.4.1": "",
+        "cycler==0.12.1": "",
+        "Cython==3.0.12": "",
+        "Deprecated==1.2.18": "",
+        "diffusers==0.32.2": "",
+        "dill==0.3.9": "",
+        "dynamicprompts==0.31.0": "",
+        "easydict==1.13": "",
+        "einops==0.8.1": "",
+        "evalidate==2.0.3": "",
+        "facexlib==0.3.0": "",
+        "fairscale==0.4.13": "",
+        "fastrlock==0.8.3": "",
+        "ffmpy": "git+https://github.com/WASasquatch/ffmpy.git@f000737698b387ffaeab7cd871b0e9185811230d",
+        "filelock==3.18.0": "",
+        "filterpy==1.4.5": "",
+        "flatbuffers==25.2.10": "",
+        "fonttools==4.56.0": "",
+        "frozenlist==1.5.0": "",
+        "fsspec==2025.3.2": "",
+        "ftfy==6.3.1": "",
+        "gguf==0.14.0": "",
+        "gitdb==4.0.12": "",
+        "GitPython==3.1.44": "",
+        "huggingface-hub==0.30.1": "",
+        "humanfriendly==10.0": "",
+        "idna==3.10": "",
+        "imageio==2.37.0": "",
+        "img2texture": "git+https://github.com/WASasquatch/img2texture.git@d6159abea44a0b2cf77454d3d46962c8b21eb9d3",
+        "importlib_metadata==8.6.1": "",
+        "insightface==0.7.3": "",
+        "Jinja2==3.1.6": "",
+        "joblib==1.4.2": "",
+        "jsonschema==4.23.0": "",
+        "jsonschema-specifications==2024.10.1": "",
+        "kiwisolver==1.4.8": "",
+        "kornia==0.8.0": "",
+        "kornia_rs==0.1.8": "",
+        "lark==1.2.2": "",
+        "lazy_loader==0.4": "",
+        "llvmlite==0.44.0": "",
+        "loguru==0.7.3": "",
+        "markdown-it-py==3.0.0": "",
+        "MarkupSafe==3.0.2": "",
+        "matplotlib==3.10.1": "",
+        "matrix-client==0.4.0": "",
+        "mdurl==0.1.2": "",
+        "mpmath==1.3.0": "",
+        "multidict==6.3.0": "",
+        "networkx==3.4.2": "",
+        "numba==0.61.0": "",
+        "numpy==1.26.3": "",
+        "nvidia-cublas-cu12==12.4.5.8": "",
+        "nvidia-cuda-cupti-cu12==12.4.127": "",
+        "nvidia-cuda-nvrtc-cu12==12.4.127": "",
+        "nvidia-cuda-runtime-cu12==12.4.127": "",
+        "nvidia-cudnn-cu12==9.1.0.70": "",
+        "nvidia-cufft-cu12==11.2.1.3": "",
+        "nvidia-curand-cu12==10.3.5.147": "",
+        "nvidia-cusolver-cu12==11.6.1.9": "",
+        "nvidia-cusparse-cu12==12.3.1.170": "",
+        "nvidia-cusparselt-cu12==0.6.2": "",
+        "nvidia-nccl-cu12==2.21.5": "",
+        "nvidia-nvjitlink-cu12==12.4.127": "",
+        "nvidia-nvtx-cu12==12.4.127": "",
+        "omegaconf==2.3.0": "",
+        "onnx==1.17.0": "",
+        "onnxruntime==1.21.0": "",
+        "onnxruntime-gpu==1.21.0": "",
+        "opencv-python==4.11.0.86": "",
+        "opencv-python-headless==4.11.0.86": "",
+        "packaging==24.2": "",
+        "pandas==2.2.3": "",
+        "piexif==1.1.3": "",
+        "pilgram==1.2.1": "",
+        "pillow==11.1.0": "",
+        "platformdirs==4.3.7": "",
+        "pooch==1.8.2": "",
+        "prettytable==3.16.0": "",
+        "propcache==0.3.1": "",
+        "protobuf==6.30.2": "",
+        "psutil==7.0.0": "",
+        "py-cpuinfo==9.0.0": "",
+        "pycparser==2.22": "",
+        "pydantic==2.11.1": "",
+        "pydantic_core==2.33.0": "",
+        "PyGithub==2.6.1": "",
+        "Pygments==2.19.1": "",
+        "PyJWT==2.10.1": "",
+        "PyMatting==1.1.13": "",
+        "PyNaCl==1.5.0": "",
+        "pyparsing==3.2.3": "",
+        "python-dateutil==2.9.0.post0": "",
+        "pytz==2025.2": "",
+        "PyYAML==6.0.2": "",
+        "referencing==0.36.2": "",
+        "regex==2024.11.6": "",
+        "rembg==2.0.65": "",
+        "requests==2.32.3": "",
+        "rich==14.0.0": "",
+        "rpds-py==0.24.0": "",
+        "safetensors==0.5.3": "",
+        "scikit-image==0.25.2": "",
+        "scikit-learn==1.6.1": "",
+        "scipy==1.15.2": "",
+        "seaborn==0.13.2": "",
+        "segment-anything==1.0": "",
+        "sentencepiece==0.2.0": "",
+        "setuptools==78.1.0": "",
+        "shellingham==1.5.4": "",
+        "simsimd==6.2.1": "",
+        "six==1.17.0": "",
+        "smmap==5.0.2": "",
+        "soundfile==0.13.1": "",
+        "spandrel==0.4.1": "",
+        "stringzilla==3.12.3": "",
+        "sympy==1.13.1": "",
+        "threadpoolctl==3.6.0": "",
+        "tifffile==2025.3.30": "",
+        "timm==1.0.15": "",
+        "tokenizers==0.21.1": "",
+        "toml==0.10.2": "",
+        "torch==2.6.0": "",
+        "torchaudio==2.6.0": "",
+        "torchsde==0.2.6": "",
+        "torchvision==0.21.0": "",
+        "tqdm==4.67.1": "",
+        "trampoline==0.1.2": "",
+        "transformers==4.50.3": "",
+        "triton==3.2.0": "",
+        "typer==0.15.2": "",
+        "typing-inspection==0.4.0": "",
+        "typing_extensions==4.13.0": "",
+        "tzdata==2025.2": "",
+        "ultralytics==8.3.99": "",
+        "ultralytics-thop==2.0.14": "",
+        "urllib3==1.26.20": "",
+        "uv==0.6.11": "",
+        "wcwidth==0.2.13": "",
+        "wrapt==1.17.2": "",
+        "yacs==0.1.8": "",
+        "yarl==1.18.3": "",
+        "zipp==3.21.0": ""
+    }
+}

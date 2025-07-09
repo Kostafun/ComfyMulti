@@ -1,0 +1,6 @@
+/.venv
+/back
+/output
+/tmp
+__pycache__
+models
